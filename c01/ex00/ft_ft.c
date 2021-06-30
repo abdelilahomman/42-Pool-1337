@@ -6,13 +6,22 @@
 /*   By: aomman <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 16:54:58 by aomman            #+#    #+#             */
-/*   Updated: 2021/06/29 13:51:40 by aomman           ###   ########.fr       */
+/*   Updated: 2021/06/30 19:58:38 by aomman           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-
+#include <stdio.h>
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
+}
+
+int main()
+{
+	int i;
+	int *p;
+	
+	i = 111;
+	p = &i;
+	ft_ft(p);
+	printf("%d", i);
 }

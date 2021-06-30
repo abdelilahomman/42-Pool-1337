@@ -6,11 +6,9 @@
 /*   By: aomman <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 20:49:09 by aomman            #+#    #+#             */
-/*   Updated: 2021/06/29 14:03:16 by aomman           ###   ########.fr       */
+/*   Updated: 2021/06/30 17:19:14 by aomman           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_div_mod(int a, int b)
 {

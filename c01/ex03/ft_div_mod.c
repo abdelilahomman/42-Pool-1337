@@ -6,11 +6,9 @@
 /*   By: aomman <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/28 20:44:03 by aomman            #+#    #+#             */
-/*   Updated: 2021/06/29 13:54:03 by aomman           ###   ########.fr       */
+/*   Updated: 2021/06/30 17:18:48 by aomman           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
